@@ -1,0 +1,74 @@
+
+    .container {
+      margin: 2rem;
+      margin-left: 12rem;
+    }
+
+
+/* Style the form - display items horizontally */
+.form-inline {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap ;
+    margin-bottom: 5%;
+    
+  }
+
+  .form-inline label {
+    margin: 5px 10px 5px -13px;
+    color: white;
+
+  }
+  
+  /* Style the input fields */
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 20px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5%;
+  }
+  
+  .chech {
+    color: white;
+    
+  }
+  .form-check-input{
+    margin: 5px 10px 5px -15px;
+    
+}
+
+
+  /* Style the submit button */
+  .form-inline button {
+    color: white;
+    width: 300px;
+    background-color: black;
+    margin-left: 130px;
+    border-radius: 2%;
+  }
+  
+  .form-inline button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+  @media (max-width: 800px) {
+    .form-inline input {
+      margin: 10px 0;
+    }
+    .form-inline label {
+        margin: 10px 0;
+      }
+      
+  
+    .form-inline {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  body{
+    background-color: #666;
+  }
