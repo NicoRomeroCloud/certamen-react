@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+
+.card-body button{
+    border: 0px;
+    background-color: white;
+    vertical-align: px;
+    margin-inline: 240px;
+    /* margin-inline: 240px; */
+}
+
+.card-title{
+    margin-top: -5%;
+}
+.card-text{
+    margin-top: 5%;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 black;
+    /* this adds the "card" effect */
+    /* padding: 16px; */
+    /* background-color: white; */
+    width: 280px;
+    height: 280px;
+    border-radius: 0%;
+    margin-bottom: 10%;
+    /* padding-left: 20%; */
+    /* transform: rotate(-5deg); */
+    /* animation: card 50s linear infinite;
+    animation-delay: calc(var(--delay) * 0s); */
+    /* animation-duration: 0s; */
+}
+/* @keyframes card {
+    
+     0% { transform: rotate(5deg);}
+    50% {
+      transform: rotate(-5deg);
+    }
+  } */
+/* Responsive columns - one column layout (vertical) on small screens */
+
+@media screen and (max-width: 600px) {
+    .card-body {
+      width: 100%;
+      margin-bottom: 20px;
+      margin-left: -10px;
+    }
+    
+  }
+  @media screen and (max-width: 1200px) {
+    .card-body {
+      width: 100%;
+      margin-bottom: 20px;
+      margin-left: -10px;
+    }
+    .card-body button{
+      border: 0px;
+      background-color: white;
+      vertical-align: 20px;
+      margin-inline: 240px;
+      /* margin-inline: 240px; */
+  }
+}
+@media screen and (max-width: 950px) {
+  .card-body {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    
+  }
+}
+@media screen and (max-width: 840px) {
+  .card-body {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: -10px;
+  }
+  
+}
+@media screen and (max-width: 520px) {
+  .card-body {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: -10px;
+  }
+}
