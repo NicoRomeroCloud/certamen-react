@@ -4,7 +4,7 @@
 .card-body button{
     border: 0px;
     
-    background-color: white;
+    background-color: black;
     /* vertical-align: 34444444px; */
     margin-inline: 240px;
     /* margin-inline: 240px; */
@@ -21,7 +21,7 @@
 
 /* Style the counter cards */
 .card {
-    box-shadow: 0 4px 8px 0 black;
+    box-shadow: 6px 4px 8px 0 black;
     /* this adds the "card" effect */
     /* padding: 16px; */
     /* background-color: white; */
