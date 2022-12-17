@@ -1,27 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
 
-.card-body button{
+.botonx{
     border: 0px;
-    
-    background-color: black;
+    font-size: 20px;
+    /* width: 0px; */
+    /* height: 0%; */
+    /* height: 1px; */
+    /* background-color: black; */
     /* vertical-align: 34444444px; */
     margin-inline: 240px;
+    margin-top: -30000002222222220%;
     /* margin-inline: 240px; */
 }
 
 .card-title{
-    margin-top: -5%;
+    margin-top: -2%;
 }
 .card-text{
     margin-top: 5%;
     font-family: 'Reenie Beanie', cursive;
 }
-
+.card-body{
+  margin-top: -11px;
+}
 
 /* Style the counter cards */
 .card {
-    box-shadow: 6px 4px 8px 0 black;
+    box-shadow: 6px 4px 8px 0  #111    ;
     /* this adds the "card" effect */
     /* padding: 16px; */
     /* background-color: white; */
@@ -29,6 +35,7 @@
     height: 280px;
     border-radius: 0%;
     margin-bottom: 13%;
+    margin-left: 20%;
     /* padding-left: 20%; */
     /* transform: rotate(-5deg); */
     /* animation: card 50s linear infinite;
@@ -55,14 +62,22 @@
   @media screen and (max-width: 1200px) {
     .card-body {
       width: 100%;
+      margin-top: -13px;
       margin-bottom: 20px;
       margin-left: -10px;
     }
-    .card-body button{
+    .botonx{
       border: 0px;
-      background-color: white;
+      width: 1%;
+      /* height: 1%; */
+      font-size: 19px;
+      margin-top: auto;
+      /* font-size: medium; */
+      /* background-color: white; */
+      /* BACcolor: transparent; */
       vertical-align: 20px;
       margin-inline: 240px;
+      /* margin-top: 0.1px; */
       /* margin-inline: 240px; */
   }
 }

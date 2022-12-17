@@ -32,7 +32,7 @@ return (
                     <div className="card-body">
                         <button className='botonx' style={{backgroundColor: '#EC7063'}} onClick={() => {
                             eliminarNota(element.id)
-                        }}>X</button>
+                        }}><b>x</b></button>
                         <div className='formcontrol'>
                             <h2 className="card-title"><b>{element.titulo}</b></h2>
 
@@ -44,7 +44,7 @@ return (
                 <div className="card-body">
                     <button className='botonx' style={{ backgroundColor: '#FFFFCC'}} onClick={() => {
                         eliminarNota(element.id)
-                    }}>X</button>
+                    }}><b>x</b></button>
                     <div className='formcontrol'>
                         <h2 className="card-title"><b>{element.titulo}</b></h2>
 

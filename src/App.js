@@ -31,10 +31,13 @@ export default function App() {
               <h1>No hay notas</h1>
               : notas.map((element) => {
                 return (
-                  <div className=' col-md-3 col-lg-3'>
+                 
+
+                  <div className='flex col-lg-3'>
+
                     
-                  <Notas element={element} key={element.id} notas={notas} setNotas={setNotas} />
-                  
+                    <Notas element={element} key={element.id} notas={notas} setNotas={setNotas} />
+                    
                   </div>
                 )
               })

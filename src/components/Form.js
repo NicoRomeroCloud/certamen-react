@@ -110,9 +110,10 @@ export default function Form({ titulo, setTitulo, descripsion, setDescripsion, n
                     <div>
                 <input type="checkbox" value={!isChecked} className='form-check-input' id='imp' checked={isChecked} onChange={inputCheck} />
                
-                <label>Importante </label>
-            </div>
-                    <button className='btn btn-primary' onClick={addNotes}>AGREGAR</button>
+                <label>Importante!</label>
+                </div>
+                    <button className='btn' onClick={addNotes}>AGREGAR</button>
+                <div></div>
                 </form>
             </div>
         </>

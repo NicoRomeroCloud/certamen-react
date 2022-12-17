@@ -1,7 +1,6 @@
 
     .container {
-      margin: 2rem;
-      margin-left: 12rem;
+      margin-top: 2rem;
     }
 
 
@@ -41,12 +40,13 @@
 
 
   /* Style the submit button */
-  .form-inline button {
+.form-inline button {
     color: white;
-    width: 300px;
+    width: 328px;
+    border-radius: 60px;
     background-color: black;
     border: none;
-    margin-left: 130px;
+    margin-left: 100px;
     border-radius: 2%;
   }
   
