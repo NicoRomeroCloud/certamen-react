@@ -45,13 +45,17 @@
     color: white;
     width: 300px;
     background-color: black;
+    border: none;
     margin-left: 130px;
     border-radius: 2%;
   }
   
-  .form-inline button:hover {
+  button:hover {
     background-color: black;
     color: white;
+  }
+  button:active {
+    background-color: black;
   }
   
   /* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */

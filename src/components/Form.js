@@ -112,7 +112,7 @@ export default function Form({ titulo, setTitulo, descripsion, setDescripsion, n
                
                 <label>Importante </label>
             </div>
-                    <button className='btn' onClick={addNotes}>AGREGAR</button>
+                    <button className='btn btn-primary' onClick={addNotes}>AGREGAR</button>
                 </form>
             </div>
         </>

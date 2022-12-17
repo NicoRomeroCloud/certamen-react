@@ -3,8 +3,9 @@
 
 .card-body button{
     border: 0px;
+    
     background-color: white;
-    vertical-align: px;
+    /* vertical-align: 34444444px; */
     margin-inline: 240px;
     /* margin-inline: 240px; */
 }
@@ -27,7 +28,7 @@
     width: 280px;
     height: 280px;
     border-radius: 0%;
-    margin-bottom: 10%;
+    margin-bottom: 13%;
     /* padding-left: 20%; */
     /* transform: rotate(-5deg); */
     /* animation: card 50s linear infinite;
