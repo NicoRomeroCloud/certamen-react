@@ -1,78 +1,83 @@
-
-    .container {
-      margin-top: 2rem;
-    }
+.container {
+  margin-top: 2rem;
+}
 
 
 /* Style the form - display items horizontally */
 .form-inline {
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap ;
-    margin-bottom: 5%;
-    
-  }
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  margin-bottom: 5%;
 
-  .form-inline label {
-    margin: 5px 10px 5px -13px;
-    color: white;
+}
 
-  }
-  
-  /* Style the input fields */
-  .form-inline input {
-    vertical-align: middle;
-    margin: 5px 20px 5px 0;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5%;
-  }
-  
-  .chech {
-    color: white;
-    
-  }
-  .form-check-input{
-    margin: 5px 10px 5px -15px;
-    
+.form-inline label {
+  margin: 5px 10px 5px -13px;
+  color: white;
+
+}
+
+/* Style the input fields */
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 20px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5%;
+}
+
+.chech {
+  color: white;
+
+}
+
+.form-check-input {
+  margin: 5px 10px 5px -15px;
+
 }
 
 
-  /* Style the submit button */
+/* Style the submit button */
 .form-inline button {
-    color: white;
-    width: 328px;
-    border-radius: 60px;
-    background-color: black;
-    border: none;
-    margin-left: 100px;
-    border-radius: 2%;
+  color: white;
+  width: 328px;
+  border-radius: 60px;
+  background-color: black;
+  border: none;
+  margin-left: 100px;
+  border-radius: 2%;
+  font-size: 120%;
+}
+
+.form-inline button:hover {
+  background-color: black;
+  color: white;
+}
+
+.form-inline button:active {
+  background-color: black;
+  color: black;
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
   }
-  
-  button:hover {
-    background-color: black;
-    color: black;
+
+  .form-inline label {
+    margin: 10px 0;
   }
-  button:active {
-    background-color: black;
+
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
   }
-  
-  /* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
-  @media (max-width: 800px) {
-    .form-inline input {
-      margin: 10px 0;
-    }
-    .form-inline label {
-        margin: 10px 0;
-      }
-      
-  
-    .form-inline {
-      flex-direction: column;
-      align-items: stretch;
-    }
-  }
-  body{
-    background-color: #666;
-  }
+}
+
+body {
+  background-color: #666;
+}

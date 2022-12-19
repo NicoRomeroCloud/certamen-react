@@ -16,10 +16,12 @@
 
 .card-title{
     margin-top: -2%;
+    
 }
 .card-text{
     margin-top: 5%;
     font-family: 'Reenie Beanie', cursive;
+    font-size: 250%;
 }
 .card-body{
   margin-top: -11px;

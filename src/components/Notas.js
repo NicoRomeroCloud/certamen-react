@@ -36,7 +36,7 @@ return (
                         <div className='formcontrol'>
                             <h2 className="card-title"><b>{element.titulo}</b></h2>
 
-                            <h5 className="card-text">{element.descripsion} </h5>
+                            <h3 className="card-text">{element.descripsion} </h3>
                         </div>
                     </div>
                 </div>:

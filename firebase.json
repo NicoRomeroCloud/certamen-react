@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "react-certamen2",
+    "site": "certamenreact-2",
     "public": "build",
     "ignore": [
       "firebase.json",
